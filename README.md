@@ -126,14 +126,17 @@ python main.py
 
 ### Interfaz web
 
-```bash
-python flask_server.py
+Para ejecutar la interfaz web se deben seguir los siguientes pasos:
+ 1. Ejucutar el último chunk del archivo main.py
+ 2. abrir el archivo stylist_light.html en un editor de texto, y en la terminal (en la misma carpeta) escribir el siguiente comando: python -m http.server 8000. Luego introduce en un buscador la URL http://localhost:8000/stylist_light.html
+ 3. copiar la URL que aparece al ejecutar el chunk en el apartado URL NGROK de la web y pulsar conectar.
+ 4. ya estaría conectado el frontend (stylist_light.html) con el backend flask (chunk del main).
+
+Nota: si solo se va a usar el generador de outfits y no se va a subir ropa al armario, solo ejecutar el chunk que genera el modelo whisper, ya que la RAM si se ejecuta además el chunk para el modelo Qwen llega al límite. 
+
+
 ```
 
-Luego abre en el navegador:
-
-```
-http://localhost:5000
 ```
 
 ---
