@@ -124,6 +124,10 @@ python Modulo4.py
 python main.py
 ```
 
+### Modificación de rutas
+
+Antes de ejecutar el código modifica todas las rutas a la ruta a la carpeta en la que se han guardado los archivos en tu Drive.
+
 ### Interfaz web
 
 Para ejecutar la interfaz web se deben seguir los siguientes pasos:
